@@ -16,13 +16,7 @@ const commentdata = [
     comment_text: "Aliquam erat volutpat. In congue.",
     user_id: 3,
     post_id: 3,
-  },
-  {
-    comment_text:
-      "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
-    user_id: 4,
-    post_id: 4,
-  },
+  }
 ];
 
 const seedComments = () => Comment.bulkCreate(commentdata);
