@@ -42,14 +42,14 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 https://courses.bootcampspot.com/courses/1102/files/1441638/preview
 
 # Tools Used
-express-handlebars
-MySQL2
-Sequelize
-Express.js
-dotenv package
-bcrypt package
-express-session
-connect-session-sequelize
+- express-handlebars
+- MySQL2
+- Sequelize
+- Express.js
+- dotenv package
+- bcrypt package
+- express-session
+- connect-session-sequelize
 
 # License
  MIT
