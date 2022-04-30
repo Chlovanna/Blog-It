@@ -39,6 +39,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 - WHEN I am idle on the site for more than a set time
 - THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 # Mock-Up
+![image](https://user-images.githubusercontent.com/97860472/166084221-fed130a1-44d9-4db0-a8be-1141702f152b.png)
 
 
 # Tools Used
