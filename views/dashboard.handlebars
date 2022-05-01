@@ -8,15 +8,15 @@
     </div>
     <div>
       <label for="description">Content</label>
-      <input id="post-content" name="description" />
+      <input type="text" id="post-content" name="description" />
     </div>
-    <button type="submit" class="btn"><a href="/">Create</button>
+    <button type="submit" class="btn" id="submit"><a href="/">Create</button>
   </form>
 </section>
 
 {{#if posts.length}}
-<section>
   <h2>Your Posts</h2>
+  <section class="form-box">
   <ol>
     {{#each posts as |post|}}
     <li>

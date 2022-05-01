@@ -11,17 +11,20 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Home</a>
-      </h1>
       <nav>
+        <a href="/" class="nav-link">Home</a>
+     
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
+        <a href="/dashboard" class="nav-link">Dashboard</a>
         <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login">Login</a>
         {{/if}}
       </nav>
+      
+      <div class="title-container">
+        <h1>Blog-It!</h1>
+      </div>
     </header>
     <main>
       {{{ body }}}
