@@ -29,9 +29,9 @@ nav {
   box-shadow: 8px 5px 2px rgba(196, 210, 196, 0.879);
 }
 
-/* #logout {
+#logout {
   all: unset;
-} */
+}
 
 a, #logout {
   text-decoration: none;
