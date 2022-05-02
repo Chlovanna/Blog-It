@@ -11,7 +11,7 @@ async function editFormHandler(event) {
     body: JSON.stringify({
       title,
       comment,
-      description: comment
+      // description: comment
     }),
     headers: {
       'Content-Type': 'application/json'

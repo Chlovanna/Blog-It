@@ -1,22 +1,21 @@
 {{> post-info post}}
 
 {{#if loggedIn}}
-<section class="post" id="comment-form">
 <form class="comment-form">
-  <div>Comment</div>
   <div>
     <textarea name="comment-body"></textarea>
   </div>
 
   <div>
-    <button type="submit" id="submit">Submit</button>
+    <button type="submit">add comment</button>
+    <button type="button" class="upvote-btn">upvote</button>
   </div>
 </form>
-</section>
 {{/if}}
 
 {{> comments post.comments}}
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
+<script src="/javascript/upvote.js"></script>
 {{/if}}
