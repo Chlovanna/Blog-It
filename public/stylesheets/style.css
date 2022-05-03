@@ -35,13 +35,13 @@ nav {
 
 a, #logout {
   text-decoration: none;
-  color: rgb(190, 213, 190);
+  color: rgb(55, 59, 47);
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: burlywood;
+  color: rgb(173, 88, 209);
 }
 
 
