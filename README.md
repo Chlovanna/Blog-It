@@ -41,6 +41,9 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 # Mock-Up
 ![image](https://user-images.githubusercontent.com/97860472/166084221-fed130a1-44d9-4db0-a8be-1141702f152b.png)
 
+# Deployment
+https://blog-it-al.herokuapp.com/
+
 
 # Tools Used
 - express-handlebars
